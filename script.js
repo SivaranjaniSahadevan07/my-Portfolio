@@ -40,13 +40,13 @@ window.addEventListener('scroll', function () {
 
 
     function sendEmail(){
-	Email.send({
+    Email.send({
     Host : "smtp.elasticemail.com",
     Username : "sivaranjani.s628123@gmail.com",
     Password : "9B6BAB1D474C423F9031D641E5E4BE6160A7",
     To : 'sivaranjanisahadevan@gmail.com',
     From : document.getElementById("email").value,
-    Subject : "MSN - contact form",
+    Subject : "Portfolio - contact form",
     Body : "Name: "+document.getElementById("name").value 
          +"<br> Email: "+document.getElementById("email").value 
          +"<br> Message: "+document.getElementById("message").value
